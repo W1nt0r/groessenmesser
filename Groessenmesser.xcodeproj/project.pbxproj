@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DEF52AD19DEDA8A009E8C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF52AC19DEDA8A009E8C0B /* AppDelegate.swift */; };
+		3DEF52AF19DEDA8A009E8C0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF52AE19DEDA8A009E8C0B /* ViewController.swift */; };
+		3DEF52B219DEDA8A009E8C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEF52B019DEDA8A009E8C0B /* Main.storyboard */; };
+		3DEF52B419DEDA8A009E8C0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEF52B319DEDA8A009E8C0B /* Images.xcassets */; };
+		3DEF52B719DEDA8A009E8C0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DEF52B519DEDA8A009E8C0B /* LaunchScreen.xib */; };
+		3DEF52C319DEDA8A009E8C0B /* GroessenmesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF52C219DEDA8A009E8C0B /* GroessenmesserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DEF52BD19DEDA8A009E8C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DEF529F19DEDA8A009E8C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DEF52A619DEDA8A009E8C0B;
+			remoteInfo = Groessenmesser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DEF52A719DEDA8A009E8C0B /* Groessenmesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groessenmesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEF52AB19DEDA8A009E8C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEF52AC19DEDA8A009E8C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DEF52AE19DEDA8A009E8C0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DEF52B119DEDA8A009E8C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DEF52B319DEDA8A009E8C0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DEF52B619DEDA8A009E8C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3DEF52BC19DEDA8A009E8C0B /* GroessenmesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroessenmesserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEF52C119DEDA8A009E8C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEF52C219DEDA8A009E8C0B /* GroessenmesserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroessenmesserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DEF52A419DEDA8A009E8C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEF52B919DEDA8A009E8C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DEF529E19DEDA8A009E8C0B = {
+			isa = PBXGroup;
+			children = (
+				3DEF52A919DEDA8A009E8C0B /* Groessenmesser */,
+				3DEF52BF19DEDA8A009E8C0B /* GroessenmesserTests */,
+				3DEF52A819DEDA8A009E8C0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DEF52A819DEDA8A009E8C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DEF52A719DEDA8A009E8C0B /* Groessenmesser.app */,
+				3DEF52BC19DEDA8A009E8C0B /* GroessenmesserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DEF52A919DEDA8A009E8C0B /* Groessenmesser */ = {
+			isa = PBXGroup;
+			children = (
+				3DEF52AC19DEDA8A009E8C0B /* AppDelegate.swift */,
+				3DEF52AE19DEDA8A009E8C0B /* ViewController.swift */,
+				3DEF52B019DEDA8A009E8C0B /* Main.storyboard */,
+				3DEF52B319DEDA8A009E8C0B /* Images.xcassets */,
+				3DEF52B519DEDA8A009E8C0B /* LaunchScreen.xib */,
+				3DEF52AA19DEDA8A009E8C0B /* Supporting Files */,
+			);
+			path = Groessenmesser;
+			sourceTree = "<group>";
+		};
+		3DEF52AA19DEDA8A009E8C0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DEF52AB19DEDA8A009E8C0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DEF52BF19DEDA8A009E8C0B /* GroessenmesserTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DEF52C219DEDA8A009E8C0B /* GroessenmesserTests.swift */,
+				3DEF52C019DEDA8A009E8C0B /* Supporting Files */,
+			);
+			path = GroessenmesserTests;
+			sourceTree = "<group>";
+		};
+		3DEF52C019DEDA8A009E8C0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DEF52C119DEDA8A009E8C0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DEF52A619DEDA8A009E8C0B /* Groessenmesser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEF52C619DEDA8A009E8C0B /* Build configuration list for PBXNativeTarget "Groessenmesser" */;
+			buildPhases = (
+				3DEF52A319DEDA8A009E8C0B /* Sources */,
+				3DEF52A419DEDA8A009E8C0B /* Frameworks */,
+				3DEF52A519DEDA8A009E8C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Groessenmesser;
+			productName = Groessenmesser;
+			productReference = 3DEF52A719DEDA8A009E8C0B /* Groessenmesser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DEF52BB19DEDA8A009E8C0B /* GroessenmesserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEF52C919DEDA8A009E8C0B /* Build configuration list for PBXNativeTarget "GroessenmesserTests" */;
+			buildPhases = (
+				3DEF52B819DEDA8A009E8C0B /* Sources */,
+				3DEF52B919DEDA8A009E8C0B /* Frameworks */,
+				3DEF52BA19DEDA8A009E8C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DEF52BE19DEDA8A009E8C0B /* PBXTargetDependency */,
+			);
+			name = GroessenmesserTests;
+			productName = GroessenmesserTests;
+			productReference = 3DEF52BC19DEDA8A009E8C0B /* GroessenmesserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DEF529F19DEDA8A009E8C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = HSR;
+				TargetAttributes = {
+					3DEF52A619DEDA8A009E8C0B = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3DEF52BB19DEDA8A009E8C0B = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3DEF52A619DEDA8A009E8C0B;
+					};
+				};
+			};
+			buildConfigurationList = 3DEF52A219DEDA8A009E8C0B /* Build configuration list for PBXProject "Groessenmesser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DEF529E19DEDA8A009E8C0B;
+			productRefGroup = 3DEF52A819DEDA8A009E8C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DEF52A619DEDA8A009E8C0B /* Groessenmesser */,
+				3DEF52BB19DEDA8A009E8C0B /* GroessenmesserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DEF52A519DEDA8A009E8C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEF52B219DEDA8A009E8C0B /* Main.storyboard in Resources */,
+				3DEF52B719DEDA8A009E8C0B /* LaunchScreen.xib in Resources */,
+				3DEF52B419DEDA8A009E8C0B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEF52BA19DEDA8A009E8C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DEF52A319DEDA8A009E8C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEF52AF19DEDA8A009E8C0B /* ViewController.swift in Sources */,
+				3DEF52AD19DEDA8A009E8C0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEF52B819DEDA8A009E8C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEF52C319DEDA8A009E8C0B /* GroessenmesserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DEF52BE19DEDA8A009E8C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DEF52A619DEDA8A009E8C0B /* Groessenmesser */;
+			targetProxy = 3DEF52BD19DEDA8A009E8C0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DEF52B019DEDA8A009E8C0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEF52B119DEDA8A009E8C0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DEF52B519DEDA8A009E8C0B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEF52B619DEDA8A009E8C0B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DEF52C419DEDA8A009E8C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DEF52C519DEDA8A009E8C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DEF52C719DEDA8A009E8C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Groessenmesser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DEF52C819DEDA8A009E8C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Groessenmesser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DEF52CA19DEDA8A009E8C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GroessenmesserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groessenmesser.app/Groessenmesser";
+			};
+			name = Debug;
+		};
+		3DEF52CB19DEDA8A009E8C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GroessenmesserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groessenmesser.app/Groessenmesser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DEF52A219DEDA8A009E8C0B /* Build configuration list for PBXProject "Groessenmesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEF52C419DEDA8A009E8C0B /* Debug */,
+				3DEF52C519DEDA8A009E8C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DEF52C619DEDA8A009E8C0B /* Build configuration list for PBXNativeTarget "Groessenmesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEF52C719DEDA8A009E8C0B /* Debug */,
+				3DEF52C819DEDA8A009E8C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DEF52C919DEDA8A009E8C0B /* Build configuration list for PBXNativeTarget "GroessenmesserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEF52CA19DEDA8A009E8C0B /* Debug */,
+				3DEF52CB19DEDA8A009E8C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DEF529F19DEDA8A009E8C0B /* Project object */;
+}
