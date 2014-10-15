@@ -30,9 +30,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "209"
-            endingLineNumber = "209"
-            landmarkName = "camCaptureComplete(_:withAsset:)"
-            landmarkType = "5">
+            endingLineNumber = "209">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -47,7 +45,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "160"
             endingLineNumber = "160"
-            landmarkName = "getAngle(_:)"
+            landmarkName = "camModeDidChange(_:mode:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

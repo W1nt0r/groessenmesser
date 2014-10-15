@@ -2,13 +2,14 @@
 //  ViewController.swift
 //  Groessenmesser
 //
-//  Created by Jan Winter on 03.10.14.
+//  Created by Jan Winter & Adrian Tang on 03.10.14.
 //  Copyright (c) 2014 HSR. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate, GetAnglesDelegate {
+    
     @IBOutlet var distance: UITextField!
     @IBOutlet var betaLabel: UILabel!
     @IBOutlet var alphaLabel: UILabel!
@@ -19,7 +20,6 @@ class ViewController: UIViewController, UITextFieldDelegate, GetAnglesDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         distance.delegate = self
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -52,32 +52,25 @@ class ViewController: UIViewController, UITextFieldDelegate, GetAnglesDelegate {
     }
     
     @IBAction func showHeight(sender: AnyObject) {
-        //var temp = calculateHeight(NSString(string:distance.text).doubleValue)
         var temp = calculateHeight(NSString(string:distance.text))
         heightObject.text = "\(temp)"
     }
     
     
     func calculateHeight(strDistance:String)-> Double{
-        println(alphaAngleFinal!)
-        println(betaAngleFinal!)
-        println(distance)
-        
         let dblDistance: Double? = NSString(string: strDistance).doubleValue
         
         if let distance = dblDistance {
             let alphaRadian = self.degreeToRadians(self.alphaAngleFinal)
             let betaRadian = self.degreeToRadians(self.betaAngleFinal)
             
-            //let c = (distance / sin(alphaAngleFinal!) * sin(90))
             let c = distance / sin(alphaRadian)
-            println(c)
+            
             let gamma = ( 180 - alphaAngleFinal! - betaAngleFinal!)
             let gammaRadian = self.degreeToRadians(gamma)
-            println(gamma)
-            //let b=(c / sin(gamma) * sin(betaAngleFinal!))
+
             let b = (c / sin(gammaRadian) * sin(betaRadian))
-            println(b)
+            
             var g:Double!
             g = b
             
@@ -89,7 +82,6 @@ class ViewController: UIViewController, UITextFieldDelegate, GetAnglesDelegate {
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func degreeToRadians(degree: Double) -> Double {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B55A29F-4694-4C6C-8197-629F1E94ADA3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Groessenmesser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>70093211DAEAC9AE35B20ACA545E15B18B931236</key>
+		<string>github.com:W1nt0r/groessenmesser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Groessenmesser.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>70093211DAEAC9AE35B20ACA545E15B18B931236</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:W1nt0r/groessenmesser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>70093211DAEAC9AE35B20ACA545E15B18B931236</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>70093211DAEAC9AE35B20ACA545E15B18B931236</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Groessenmesser</string>
+		</dict>
+	</array>
+</dict>
+</plist>
