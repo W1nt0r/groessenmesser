@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DIYAV" "${PODS_ROOT}/Headers/Public/DIYCam" "${PODS_ROOT}/Headers/Public/Underscore.m"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DIYAV" -isystem "${PODS_ROOT}/Headers/Public/DIYCam" -isystem "${PODS_ROOT}/Headers/Public/Underscore.m"
+OTHER_LDFLAGS = -ObjC -l"Pods-DIYAV" -l"Pods-DIYCam" -l"Pods-Underscore.m" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreGraphics" -framework "CoreMedia" -framework "MobileCoreServices" -framework "QuartzCore" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,16 @@
+PODS:
+  - DIYAV (0.2.0):
+    - Underscore.m (~> 0.2.0)
+  - DIYCam (1.3.0):
+    - DIYAV (~> 0.2.0)
+  - Underscore.m (0.2.1)
+
+DEPENDENCIES:
+  - DIYCam (~> 1.3)
+
+SPEC CHECKSUMS:
+  DIYAV: ffe14f192f40d91b36c0b6e8c61b8c01a30f640c
+  DIYCam: c1aedcc1ab15b2befacfdbd52b508cc4d9fa7c6b
+  Underscore.m: f99c166a9fdccfb5069085b6b4263c04b817fc9f
+
+COCOAPODS: 0.34.1

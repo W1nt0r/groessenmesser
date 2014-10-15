@@ -13,6 +13,9 @@
 		3DEF52B419DEDA8A009E8C0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEF52B319DEDA8A009E8C0B /* Images.xcassets */; };
 		3DEF52B719DEDA8A009E8C0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DEF52B519DEDA8A009E8C0B /* LaunchScreen.xib */; };
 		3DEF52C319DEDA8A009E8C0B /* GroessenmesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF52C219DEDA8A009E8C0B /* GroessenmesserTests.swift */; };
+		3DEF52CF19DEE0DF009E8C0B /* CamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF52CE19DEE0DF009E8C0B /* CamController.swift */; };
+		3DEF52D219DEE4B5009E8C0B /* BridgingDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF52D119DEE4B5009E8C0B /* BridgingDummy.m */; };
+		7232A1F46845F041725D2839 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD6F22157DC0CC7E631CFA6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D6208DCF63035D946A41294 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3DEF52A719DEDA8A009E8C0B /* Groessenmesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groessenmesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEF52AB19DEDA8A009E8C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DEF52AC19DEDA8A009E8C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,11 @@
 		3DEF52BC19DEDA8A009E8C0B /* GroessenmesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroessenmesserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEF52C119DEDA8A009E8C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DEF52C219DEDA8A009E8C0B /* GroessenmesserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroessenmesserTests.swift; sourceTree = "<group>"; };
+		3DEF52CE19DEE0DF009E8C0B /* CamController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamController.swift; sourceTree = "<group>"; };
+		3DEF52D019DEE4B4009E8C0B /* Groessenmesser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Groessenmesser-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DEF52D119DEE4B5009E8C0B /* BridgingDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgingDummy.m; sourceTree = "<group>"; };
+		BDD6F22157DC0CC7E631CFA6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A7B9ACB45ED5A30AD31967 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7232A1F46845F041725D2839 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				3DEF52A919DEDA8A009E8C0B /* Groessenmesser */,
 				3DEF52BF19DEDA8A009E8C0B /* GroessenmesserTests */,
 				3DEF52A819DEDA8A009E8C0B /* Products */,
+				8E340F420D0CFFE0CB69C9E7 /* Pods */,
+				B971EC100B5DE8F39DC3603F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +91,13 @@
 			children = (
 				3DEF52AC19DEDA8A009E8C0B /* AppDelegate.swift */,
 				3DEF52AE19DEDA8A009E8C0B /* ViewController.swift */,
+				3DEF52CE19DEE0DF009E8C0B /* CamController.swift */,
 				3DEF52B019DEDA8A009E8C0B /* Main.storyboard */,
 				3DEF52B319DEDA8A009E8C0B /* Images.xcassets */,
 				3DEF52B519DEDA8A009E8C0B /* LaunchScreen.xib */,
 				3DEF52AA19DEDA8A009E8C0B /* Supporting Files */,
+				3DEF52D119DEE4B5009E8C0B /* BridgingDummy.m */,
+				3DEF52D019DEE4B4009E8C0B /* Groessenmesser-Bridging-Header.h */,
 			);
 			path = Groessenmesser;
 			sourceTree = "<group>";
@@ -112,6 +127,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8E340F420D0CFFE0CB69C9E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D6208DCF63035D946A41294 /* Pods.debug.xcconfig */,
+				C5A7B9ACB45ED5A30AD31967 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B971EC100B5DE8F39DC3603F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDD6F22157DC0CC7E631CFA6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DEF52C619DEDA8A009E8C0B /* Build configuration list for PBXNativeTarget "Groessenmesser" */;
 			buildPhases = (
+				5E927AEC1FEA0F1FFC30341B /* Check Pods Manifest.lock */,
 				3DEF52A319DEDA8A009E8C0B /* Sources */,
 				3DEF52A419DEDA8A009E8C0B /* Frameworks */,
 				3DEF52A519DEDA8A009E8C0B /* Resources */,
+				E6F5FA301EDE580B35EA0273 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +241,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E927AEC1FEA0F1FFC30341B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F5FA301EDE580B35EA0273 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DEF52A319DEDA8A009E8C0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEF52D219DEE4B5009E8C0B /* BridgingDummy.m in Sources */,
 				3DEF52AF19DEDA8A009E8C0B /* ViewController.swift in Sources */,
 				3DEF52AD19DEDA8A009E8C0B /* AppDelegate.swift in Sources */,
+				3DEF52CF19DEE0DF009E8C0B /* CamController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,21 +403,28 @@
 		};
 		3DEF52C719DEDA8A009E8C0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6208DCF63035D946A41294 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Groessenmesser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Groessenmesser/Groessenmesser-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3DEF52C819DEDA8A009E8C0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A7B9ACB45ED5A30AD31967 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Groessenmesser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Groessenmesser/Groessenmesser-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +481,7 @@
 				3DEF52C819DEDA8A009E8C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DEF52C919DEDA8A009E8C0B /* Build configuration list for PBXNativeTarget "GroessenmesserTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +490,7 @@
 				3DEF52CB19DEDA8A009E8C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

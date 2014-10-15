@@ -1,0 +1,1 @@
+PODS_DIYCAM_OTHER_LDFLAGS = -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreGraphics" -framework "CoreMedia" -framework "MobileCoreServices" -framework "QuartzCore" -framework "UIKit"
