@@ -124,7 +124,7 @@ class CamController: UIViewController, DIYCamDelegate {
     func setBeta() {
         if(self.betaAngle == nil && self.alphaAngle != nil) {
             let beta = self.currentAngle - self.alphaAngle
-            self.betaAngle = beta
+            self.betaAngle = abs(beta)
         }
     }
     
